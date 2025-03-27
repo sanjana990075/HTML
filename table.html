@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Creation of table
+    <table border="2">
+        <thead>
+            <tr>
+            <th>student name</th>
+            <th>student usn</th>
+            <th>gender</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sanjana</td>
+                <td>cs134</td>
+                <td>female</td>
+            </tr>
+            <tr>
+                <td>Siri</td>
+                <td>cs162</td>
+                <td>female</td>
+            </tr>
+            <tr>
+                <td>aadya</td>
+                <td>cs001</td>
+                <td>female</td>
+            </tr>
+        </tbody>
+    </table>
+    use of rowspan
+    <table border="2">
+        <thead>
+            <tr>
+            <th>student name</th>
+            <th>student usn</th>
+            <th>gender</th>
+            <th>Age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sanjana</td>
+                <td>cs134</td>
+                <td>female</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Siri</td>
+                <td>cs162</td>
+                <td>female</td>
+                <td rowspan="2">18</td>
+            </tr>
+            <tr>
+                <td>aadya</td>
+                <td>cs001</td>
+                <td>female</td>
+            </tr>
+        </tbody>
+    </table>
+    use of colspan
+    <table border="2">
+        <thead>
+            <tr>
+            <th>student name</th>
+            <th>student usn</th>
+            <th>gender</th>
+            <th>Age</th>
+            <th>primary email</th>
+            <th>secondary email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sanjana</td>
+                <td>cs134</td>
+                <td>female</td>
+                <td>17</td>
+                <td colspan="2">abc</td>
+            </tr>
+            <tr>
+                <td>Siri</td>
+                <td>cs162</td>
+                <td>female</td>
+                <td>18</td>
+                <td>abc</td>
+                <td>xyz</td>
+            </tr>
+            <tr>
+                <td>aadya</td>
+                <td>cs001</td>
+                <td>female</td>
+                <td>18</td>
+                <td>abc</td>
+                <td>xyz</td>
+            </tr>
+        </tbody>
+    </table>
+    combination of concepts
+    <table border="1">
+        <thead>
+            <tr>
+                <th>column 1</th>
+                <th>column 2</th>
+                <th>coloumn 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">row 1 cell 1</td>
+                <td>rwo 1 cell 2</td>
+                <td>row 1 cell 3</td>
+            </tr>
+            <tr>
+                <td>row 2 cell 2</td>
+                <td>row 2 cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">row 3 cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
